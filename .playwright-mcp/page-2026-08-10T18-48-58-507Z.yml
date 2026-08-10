@@ -1,0 +1,172 @@
+- generic [ref=f1e3]:
+  - link "Skip to main content" [ref=f1e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1e5]:
+    - button "Motherly Medical Memory" [ref=f1e6] [cursor=pointer]
+    - generic [ref=f1e12]:
+      - generic [ref=f1e13]:
+        - generic [ref=f1e17]: Search records
+        - textbox "Search records" [ref=f1e18]:
+          - /placeholder: Search
+      - button "Share for visit" [ref=f1e19] [cursor=pointer]
+      - button "Notifications" [ref=f1e26] [cursor=pointer]:
+        - generic [ref=f1e30]: "3"
+      - button "Settings" [ref=f1e31] [cursor=pointer]
+  - generic [ref=f1e35]:
+    - complementary "Primary navigation" [ref=f1e36]:
+      - navigation [ref=f1e37]:
+        - button "Overview" [ref=f1e39] [cursor=pointer]
+        - button "Timeline" [ref=f1e45] [cursor=pointer]
+        - button "Conditions" [ref=f1e50] [cursor=pointer]
+        - button "Medications" [active] [ref=f1e56] [cursor=pointer]
+        - button "Lab trends" [ref=f1e62] [cursor=pointer]
+        - button "Records" [ref=f1e67] [cursor=pointer]
+        - button "Appointments" [ref=f1e73] [cursor=pointer]
+        - button "Symptoms" [ref=f1e78] [cursor=pointer]
+        - button "Care team" [ref=f1e84] [cursor=pointer]
+        - button "Alerts 4" [ref=f1e91] [cursor=pointer]:
+          - generic [ref=f1e95]: Alerts
+          - generic [ref=f1e96]: "4"
+        - generic [ref=f1e97]:
+          - paragraph [ref=f1e98]: More
+          - button "Full report" [ref=f1e99] [cursor=pointer]
+        - button "Ask about records" [ref=f1e104] [cursor=pointer]
+      - generic [ref=f1e109]:
+        - button "Help" [ref=f1e110] [cursor=pointer]
+        - button "Settings" [ref=f1e115] [cursor=pointer]
+        - generic [ref=f1e120]: Private local workspace
+    - main [ref=f1e122]:
+      - generic [ref=f1e623]:
+        - generic [ref=f1e624]:
+          - heading "Medications" [level=1] [ref=f1e625]
+          - paragraph [ref=f1e626]: A reconciliation workspace. Recommendations and concerns are not a substitute for the current clinician-verified list.
+        - button "Print for visit" [ref=f1e628] [cursor=pointer]
+      - generic [ref=f1e639]:
+        - strong [ref=f1e640]: Confirm the current list before making changes.
+        - generic [ref=f1e641]: The source material contains medication names and dose contexts that need reconciliation.
+      - generic [ref=f1e642]:
+        - generic [ref=f1e643]: 11 of 11 entries
+        - generic [ref=f1e644]:
+          - generic [ref=f1e645]: Filter medication status
+          - combobox "Filter medication status" [ref=f1e646]:
+            - option "All statuses" [selected]
+            - option "Active"
+            - option "Needs confirmation"
+            - option "Historical / discontinued"
+      - generic [ref=f1e647]:
+        - generic [ref=f1e648]:
+          - generic [ref=f1e649]: Medication
+          - generic [ref=f1e650]: Dose and purpose
+          - generic [ref=f1e651]: Status
+          - generic [ref=f1e652]: Record evidence
+        - article [ref=f1e653]:
+          - strong [ref=f1e655]: Amlodipine
+          - generic [ref=f1e656]:
+            - generic [ref=f1e657]: 10 mg daily
+            - generic [ref=f1e658]: Blood pressure
+          - button "documented" [ref=f1e659] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e665] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e669]: Open source
+        - article [ref=f1e670]:
+          - strong [ref=f1e672]: Clopidogrel
+          - generic [ref=f1e673]:
+            - generic [ref=f1e674]: 75 mg daily
+            - generic [ref=f1e675]: Antiplatelet / stroke prevention
+          - button "documented" [ref=f1e676] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e682] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e686]: Open source
+        - article [ref=f1e687]:
+          - generic [ref=f1e688]:
+            - strong [ref=f1e689]: Hydrochlorothiazide
+            - generic [ref=f1e690]: Review in the context of kidney function and gout with the care team.
+          - generic [ref=f1e693]:
+            - generic [ref=f1e694]: 25 mg daily
+            - generic [ref=f1e695]: Blood pressure
+          - button "documented" [ref=f1e696] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e702] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e706]: Open source
+        - article [ref=f1e707]:
+          - strong [ref=f1e709]: Levothyroxine
+          - generic [ref=f1e710]:
+            - generic [ref=f1e711]: 100 mcg daily
+            - generic [ref=f1e712]: Thyroid
+          - button "documented" [ref=f1e713] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e719] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e723]: Open source
+        - article [ref=f1e724]:
+          - generic [ref=f1e725]:
+            - strong [ref=f1e726]: Lisinopril
+            - generic [ref=f1e727]: The report also references a switch to olmesartan. Confirm which medication is current.
+          - generic [ref=f1e730]:
+            - generic [ref=f1e731]: 40 mg daily
+            - generic [ref=f1e732]: Blood pressure
+          - button "discrepancy" [ref=f1e733] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e739] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e743]: Open source
+        - article [ref=f1e744]:
+          - generic [ref=f1e745]:
+            - strong [ref=f1e746]: Olmesartan
+            - generic [ref=f1e747]: The care plan describes monitoring blood pressure and potassium.
+          - generic [ref=f1e750]:
+            - generic [ref=f1e751]: Dose not confirmed
+            - generic [ref=f1e752]: Blood pressure
+          - button "discrepancy" [ref=f1e753] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e759] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e763]: Open source
+        - article [ref=f1e764]:
+          - strong [ref=f1e766]: Omeprazole
+          - generic [ref=f1e767]:
+            - generic [ref=f1e768]: 40 mg daily
+            - generic [ref=f1e769]: Acid reflux
+          - button "documented" [ref=f1e770] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e776] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e780]: Open source
+        - article [ref=f1e781]:
+          - strong [ref=f1e783]: Pravastatin
+          - generic [ref=f1e784]:
+            - generic [ref=f1e785]: 20 mg daily
+            - generic [ref=f1e786]: Cholesterol
+          - button "documented" [ref=f1e787] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e793] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e797]: Open source
+        - article [ref=f1e798]:
+          - generic [ref=f1e799]:
+            - strong [ref=f1e800]: Trazodone
+            - generic [ref=f1e801]: The total possible dose is flagged for clinician review in the care plan.
+          - generic [ref=f1e804]:
+            - generic [ref=f1e805]: 50 mg tablets; up to 4 at bedtime as needed
+            - generic [ref=f1e806]: Sleep
+          - button "discrepancy" [ref=f1e807] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e813] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e817]: Open source
+        - article [ref=f1e818]:
+          - generic [ref=f1e819]:
+            - strong [ref=f1e820]: Venlafaxine ER
+            - generic [ref=f1e821]: The care plan recommends review in the context of reduced kidney function.
+          - generic [ref=f1e824]:
+            - generic [ref=f1e825]: 150 mg capsules; 2 daily
+            - generic [ref=f1e826]: Depression / anxiety
+          - button "discrepancy" [ref=f1e827] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e833] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e837]: Open source
+        - article [ref=f1e838]:
+          - generic [ref=f1e839]:
+            - strong [ref=f1e840]: Ibuprofen
+            - generic [ref=f1e841]: The care plan says it was discontinued and flags it as unsafe in the CKD context. Verify the current list.
+          - generic [ref=f1e844]:
+            - generic [ref=f1e845]: 800 mg historical entry
+            - generic [ref=f1e846]: Pain
+          - button "addressed" [ref=f1e847] [cursor=pointer]
+          - button "From record · Jan 13, 2025 Open source" [ref=f1e853] [cursor=pointer]:
+            - text: From record · Jan 13, 2025
+            - generic [ref=f1e857]: Open source

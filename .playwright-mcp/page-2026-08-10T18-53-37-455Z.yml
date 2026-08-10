@@ -1,0 +1,80 @@
+- generic [ref=f3e3]:
+  - link "Skip to main content" [ref=f3e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f3e5]:
+    - button "Open navigation menu" [ref=f3e396] [cursor=pointer]
+    - button "Motherly Medical Memory" [ref=f3e6] [cursor=pointer]
+    - generic [ref=f3e12]:
+      - button "Notifications" [ref=f3e26] [cursor=pointer]:
+        - generic [ref=f3e30]: "3"
+      - button "Settings" [ref=f3e31] [cursor=pointer]
+  - generic [ref=f3e35]:
+    - complementary "Primary navigation" [ref=f3e36]:
+      - generic [ref=f3e398]:
+        - strong [ref=f3e399]: Navigate
+        - button "Close navigation menu" [ref=f3e400] [cursor=pointer]
+      - navigation [ref=f3e37]:
+        - button "Overview" [ref=f3e39] [cursor=pointer]
+        - button "Timeline" [ref=f3e45] [cursor=pointer]
+        - button "Conditions" [ref=f3e50] [cursor=pointer]
+        - button "Medications" [ref=f3e56] [cursor=pointer]
+        - button "Lab trends" [ref=f3e62] [cursor=pointer]
+        - button "Records" [ref=f3e67] [cursor=pointer]
+        - button "Appointments" [ref=f3e73] [cursor=pointer]
+        - button "Symptoms" [active] [ref=f3e78] [cursor=pointer]
+        - button "Care team" [ref=f3e84] [cursor=pointer]
+        - button "Alerts 4" [ref=f3e91] [cursor=pointer]:
+          - generic [ref=f3e95]: Alerts
+          - generic [ref=f3e96]: "4"
+        - generic [ref=f3e97]:
+          - paragraph [ref=f3e98]: More
+          - button "Full report" [ref=f3e99] [cursor=pointer]
+        - button "Ask about records" [ref=f3e104] [cursor=pointer]
+      - generic [ref=f3e109]:
+        - button "Help" [ref=f3e110] [cursor=pointer]
+        - button "Settings" [ref=f3e115] [cursor=pointer]
+        - generic [ref=f3e120]: Private local workspace
+    - main [ref=f3e122]:
+      - generic [ref=f3e406]:
+        - heading "Symptoms" [level=1] [ref=f3e407]
+        - paragraph [ref=f3e408]: Keep your own observations separate from clinical records, then bring them to the care team when useful.
+      - generic [ref=f3e409]:
+        - generic [ref=f3e410]:
+          - generic [ref=f3e411]:
+            - text: Date
+            - textbox "Date" [ref=f3e412]: 2026-08-10
+          - generic [ref=f3e413]:
+            - text: Symptom or change
+            - textbox "Symptom or change" [ref=f3e414]:
+              - /placeholder: Joint pain, fatigue…
+          - generic [ref=f3e415]:
+            - text: Pain scale
+            - combobox "Pain scale" [ref=f3e416]:
+              - option "0 — no pain" [selected]
+              - option "1"
+              - option "2"
+              - option "3"
+              - option "4"
+              - option "5"
+              - option "6"
+              - option "7"
+              - option "8"
+              - option "9"
+              - option "10 — worst pain"
+          - generic [ref=f3e417]:
+            - text: Notes
+            - textbox "Notes" [ref=f3e418]:
+              - /placeholder: What happened, when, or what helped?
+        - button "Save symptom entry" [disabled] [ref=f3e419]:
+          - generic [ref=f3e420]: +
+          - text: Save symptom entry
+      - generic [ref=f3e421]:
+        - generic [ref=f3e423]:
+          - heading "My symptom entries" [level=2] [ref=f3e424]
+          - paragraph [ref=f3e425]: 1 saved locally on this device.
+        - article [ref=f3e428]:
+          - time [ref=f3e429]: Aug 10
+          - generic [ref=f3e430]:
+            - strong [ref=f3e431]: Fatigue
+            - generic [ref=f3e432]: Pain 0/10
+          - button "Delete Fatigue entry" [ref=f3e433] [cursor=pointer]

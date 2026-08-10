@@ -1,0 +1,214 @@
+- generic [ref=f4e3]:
+  - link "Skip to main content" [ref=f4e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f4e5]:
+    - button "Open navigation menu" [ref=f4e6] [cursor=pointer]
+    - button "Motherly Medical Memory" [ref=f4e8] [cursor=pointer]
+    - generic [ref=f4e14]:
+      - button "Notifications" [ref=f4e15] [cursor=pointer]:
+        - generic [ref=f4e19]: "3"
+      - button "Settings" [ref=f4e20] [cursor=pointer]
+  - generic [ref=f4e24]:
+    - complementary "Primary navigation" [ref=f4e25]:
+      - generic [ref=f4e26]:
+        - strong [ref=f4e27]: Navigate
+        - button "Close navigation menu" [ref=f4e28] [cursor=pointer]
+      - navigation [ref=f4e32]:
+        - button "Overview" [ref=f4e34] [cursor=pointer]
+        - button "Timeline" [ref=f4e40] [cursor=pointer]
+        - button "Conditions" [ref=f4e45] [cursor=pointer]
+        - button "Medications" [ref=f4e51] [cursor=pointer]
+        - button "Lab trends" [ref=f4e57] [cursor=pointer]
+        - button "Records" [ref=f4e62] [cursor=pointer]
+        - button "Appointments" [ref=f4e68] [cursor=pointer]
+        - button "Symptoms" [ref=f4e73] [cursor=pointer]
+        - button "Care team" [ref=f4e79] [cursor=pointer]
+        - button "Alerts 4" [ref=f4e86] [cursor=pointer]:
+          - generic [ref=f4e90]: Alerts
+          - generic [ref=f4e91]: "4"
+        - generic [ref=f4e92]:
+          - paragraph [ref=f4e93]: More
+          - button "Full report" [ref=f4e94] [cursor=pointer]
+        - button "Ask about records" [ref=f4e99] [cursor=pointer]
+      - generic [ref=f4e104]:
+        - button "Help" [ref=f4e105] [cursor=pointer]
+        - button "Settings" [ref=f4e110] [cursor=pointer]
+        - generic [ref=f4e115]: Private local workspace
+    - main [ref=f4e117]:
+      - generic [ref=f4e118]:
+        - generic [ref=f4e119]:
+          - heading "Today’s health picture" [level=1] [ref=f4e120]
+          - paragraph [ref=f4e121]: A plain-language starting point for reviewing records, preparing for visits, and spotting questions.
+        - generic [ref=f4e122]:
+          - button "Prepare for visit" [ref=f4e123] [cursor=pointer]
+          - button "Log symptom" [ref=f4e127] [cursor=pointer]:
+            - generic [ref=f4e128]: +
+            - text: Log symptom
+      - generic [ref=f4e129]:
+        - region [ref=f4e130]:
+          - generic [ref=f4e131]:
+            - generic [ref=f4e132]:
+              - heading "Needs attention" [level=2] [ref=f4e133]
+              - paragraph [ref=f4e136]: 1 confirmation questions · 2 record discrepancies · 1 stale follow-ups
+            - button "View all (4)" [ref=f4e137] [cursor=pointer]
+          - generic [ref=f4e140]:
+            - article [ref=f4e141]:
+              - generic [ref=f4e145]:
+                - strong [ref=f4e146]: Kidney function needs clinician confirmation
+                - generic [ref=f4e147]: The care plan describes Stage 3b CKD and a changing eGFR history. This is a record summary, not a diagnosis.
+                - button "From record · Jan 13, 2025 Open source" [ref=f4e148] [cursor=pointer]:
+                  - text: From record · Jan 13, 2025
+                  - generic [ref=f4e152]: Open source
+              - button "Review trend" [ref=f4e153] [cursor=pointer]
+              - button "Expand Kidney function needs clinician confirmation" [ref=f4e154] [cursor=pointer]
+            - article [ref=f4e157]:
+              - generic [ref=f4e161]:
+                - strong [ref=f4e162]: Medication list contains a reconciliation question
+                - generic [ref=f4e163]: Lisinopril and olmesartan appear in different record contexts. Confirm the current medication list with the care team.
+                - button "From record · Jan 13, 2025 Open source" [ref=f4e164] [cursor=pointer]:
+                  - text: From record · Jan 13, 2025
+                  - generic [ref=f4e168]: Open source
+              - button "Review medications" [ref=f4e169] [cursor=pointer]
+              - button "Expand Medication list contains a reconciliation question" [ref=f4e170] [cursor=pointer]
+            - article [ref=f4e173]:
+              - generic [ref=f4e177]:
+                - strong [ref=f4e178]: Bone-density follow-up may be overdue
+                - generic [ref=f4e179]: A 2022 DEXA/osteopenia record is cited with follow-up recommended in 18–24 months.
+                - button "From record · Jul 20, 2022 Open source" [ref=f4e180] [cursor=pointer]:
+                  - text: From record · Jul 20, 2022
+                  - generic [ref=f4e184]: Open source
+              - button "Open preventive record" [ref=f4e185] [cursor=pointer]
+              - button "Expand Bone-density follow-up may be overdue" [ref=f4e186] [cursor=pointer]
+        - complementary [ref=f4e189]:
+          - heading "Quick find" [level=2] [ref=f4e190]
+          - paragraph [ref=f4e191]: Search across records, labs, medications, and the full report.
+          - generic [ref=f4e192]:
+            - generic [ref=f4e196]: Search all records
+            - textbox "Search all records" [ref=f4e197]:
+              - /placeholder: Search by keyword, document, or date…
+          - button "Advanced search" [ref=f4e198] [cursor=pointer]
+          - generic [ref=f4e200]:
+            - text: Popular searches
+            - generic [ref=f4e201]:
+              - button "kidney" [ref=f4e202] [cursor=pointer]
+              - button "medication" [ref=f4e203] [cursor=pointer]
+              - button "blood pressure" [ref=f4e204] [cursor=pointer]
+              - button "nephrology" [ref=f4e205] [cursor=pointer]
+              - button "sleep study" [ref=f4e206] [cursor=pointer]
+              - button "imaging" [ref=f4e207] [cursor=pointer]
+          - button "Browse all records" [ref=f4e208] [cursor=pointer]
+      - generic [ref=f4e211]:
+        - generic [ref=f4e212]:
+          - generic [ref=f4e213]:
+            - generic [ref=f4e214]:
+              - heading "Recent changes" [level=2] [ref=f4e215]
+              - paragraph [ref=f4e216]: Showing the latest connected-record updates.
+            - button "View full timeline" [ref=f4e217] [cursor=pointer]
+          - article [ref=f4e220]:
+            - generic [ref=f4e224]:
+              - strong [ref=f4e225]: Emergency visit for right knee pain
+              - generic [ref=f4e226]: Degenerative changes were described on x-ray.
+              - button "From record · May 9, 2025 Open source" [ref=f4e227] [cursor=pointer]:
+                - text: From record · May 9, 2025
+                - generic [ref=f4e231]: Open source
+            - time [ref=f4e232]: May 9, 2025
+          - article [ref=f4e233]:
+            - generic [ref=f4e237]:
+              - strong [ref=f4e238]: Nephrology evaluation
+              - generic [ref=f4e239]: Kidney ultrasound and home blood-pressure monitoring were planned.
+              - button "From record · Jan 13, 2025 Open source" [ref=f4e240] [cursor=pointer]:
+                - text: From record · Jan 13, 2025
+                - generic [ref=f4e244]: Open source
+            - time [ref=f4e245]: Jan 13, 2025
+          - article [ref=f4e246]:
+            - generic [ref=f4e250]:
+              - strong [ref=f4e251]: Kidney ultrasound recorded
+              - generic [ref=f4e252]: Connected to the nephrology follow-up sequence.
+              - button "From record · Jan 29, 2025 Open source" [ref=f4e253] [cursor=pointer]:
+                - text: From record · Jan 29, 2025
+                - generic [ref=f4e257]: Open source
+            - time [ref=f4e258]: Jan 29, 2025
+          - article [ref=f4e259]:
+            - generic [ref=f4e263]:
+              - strong [ref=f4e264]: Chronic kidney disease documented
+              - generic [ref=f4e265]: CKD is listed in the primary-care health summary.
+              - button "From record · Oct 11, 2024 Open source" [ref=f4e266] [cursor=pointer]:
+                - text: From record · Oct 11, 2024
+                - generic [ref=f4e270]: Open source
+            - time [ref=f4e271]: Oct 11, 2024
+        - generic [ref=f4e272]:
+          - generic [ref=f4e273]:
+            - generic [ref=f4e274]:
+              - heading "Upcoming and overdue" [level=2] [ref=f4e275]
+              - paragraph [ref=f4e276]: Dates are interpreted relative to August 10, 2026.
+            - button "View all" [ref=f4e277] [cursor=pointer]
+          - article [ref=f4e280]:
+            - generic [ref=f4e281]:
+              - strong [ref=f4e282]: Jun
+              - generic [ref=f4e283]: "2"
+              - generic [ref=f4e284]: Mon
+            - generic [ref=f4e285]:
+              - strong [ref=f4e286]: Nephrology follow-up
+              - generic [ref=f4e287]: Indiana Kidney Specialists · Melissa Anderson
+              - button "From record · Jan 13, 2025 Open source" [ref=f4e288] [cursor=pointer]:
+                - text: From record · Jan 13, 2025
+                - generic [ref=f4e292]: Open source
+            - generic [ref=f4e293]: overdue
+          - article [ref=f4e295]:
+            - generic [ref=f4e296]:
+              - strong [ref=f4e297]: Jul
+              - generic [ref=f4e298]: "1"
+              - generic [ref=f4e299]: Mon
+            - generic [ref=f4e300]:
+              - strong [ref=f4e301]: Bone-density follow-up window
+              - generic [ref=f4e302]: Care plan follow-up
+              - button "From record · Jul 20, 2022 Open source" [ref=f4e303] [cursor=pointer]:
+                - text: From record · Jul 20, 2022
+                - generic [ref=f4e307]: Open source
+            - generic [ref=f4e308]: overdue
+          - article [ref=f4e310]:
+            - generic [ref=f4e311]:
+              - strong [ref=f4e312]: Aug
+              - generic [ref=f4e313]: "19"
+              - generic [ref=f4e314]: Wed
+            - generic [ref=f4e315]:
+              - strong [ref=f4e316]: Annual breast screening window
+              - generic [ref=f4e317]: Preventive care
+              - button "From record · Jan 13, 2025 Open source" [ref=f4e318] [cursor=pointer]:
+                - text: From record · Jan 13, 2025
+                - generic [ref=f4e322]: Open source
+            - generic [ref=f4e323]: upcoming
+      - generic [ref=f4e325]:
+        - generic [ref=f4e326]:
+          - generic [ref=f4e327]:
+            - generic [ref=f4e328]:
+              - heading "Kidney function trend" [level=2] [ref=f4e329]
+              - paragraph [ref=f4e333]: eGFR across the available care-plan and lab summaries.
+            - button "View details" [ref=f4e334] [cursor=pointer]
+          - img "eGFR trend chart" [ref=f4e337]:
+            - generic [ref=f4e345]: "2021"
+            - generic [ref=f4e346]: "2025"
+          - generic [ref=f4e347]:
+            - generic [ref=f4e348]:
+              - text: Latest documented value
+              - strong [ref=f4e349]: 53 mL/min/1.73m²
+            - button "From record · Jan 13, 2025 Open source" [ref=f4e350] [cursor=pointer]:
+              - text: From record · Jan 13, 2025
+              - generic [ref=f4e354]: Open source
+        - generic [ref=f4e355]:
+          - generic [ref=f4e356]:
+            - generic [ref=f4e357]:
+              - heading "Care team" [level=2] [ref=f4e358]
+              - paragraph [ref=f4e359]: People to contact when a record needs confirmation.
+            - button "View all" [ref=f4e360] [cursor=pointer]
+          - generic [ref=f4e363]:
+            - generic [ref=f4e368]:
+              - strong [ref=f4e369]: Olusina Akande
+              - generic [ref=f4e370]: Primary care · Logansport Memorial Hospital
+            - button "Contact Olusina Akande" [ref=f4e371] [cursor=pointer]
+          - generic [ref=f4e375]:
+            - generic [ref=f4e380]:
+              - strong [ref=f4e381]: Melissa Anderson
+              - generic [ref=f4e382]: Nephrology · Indiana Kidney Specialists
+            - button "Contact Melissa Anderson" [ref=f4e383] [cursor=pointer]
+      - paragraph [ref=f4e387]: This workspace organizes connected records and care-plan notes. It is not medical advice. Verify important questions with the care team.

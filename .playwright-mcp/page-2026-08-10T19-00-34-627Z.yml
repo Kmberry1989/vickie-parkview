@@ -1,0 +1,51 @@
+- generic [ref=f4e3]:
+  - link "Skip to main content" [ref=f4e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f4e5]:
+    - button "Motherly Medical Memory" [ref=f4e8] [cursor=pointer]
+    - generic [ref=f4e14]:
+      - generic [ref=f4e391]:
+        - generic [ref=f4e395]: Search records
+        - textbox "Search records" [ref=f4e396]:
+          - /placeholder: Search
+      - button "Share for visit" [ref=f4e397] [cursor=pointer]
+      - button "Notifications" [ref=f4e15] [cursor=pointer]:
+        - generic [ref=f4e19]: "3"
+      - button "Settings" [ref=f4e20] [cursor=pointer]
+  - generic [ref=f4e24]:
+    - complementary "Primary navigation" [ref=f4e25]:
+      - navigation [ref=f4e32]:
+        - button "Overview" [ref=f4e34] [cursor=pointer]
+        - button "Timeline" [ref=f4e40] [cursor=pointer]
+        - button "Conditions" [ref=f4e45] [cursor=pointer]
+        - button "Medications" [ref=f4e51] [cursor=pointer]
+        - button "Lab trends" [ref=f4e57] [cursor=pointer]
+        - button "Records" [ref=f4e62] [cursor=pointer]
+        - button "Appointments" [ref=f4e68] [cursor=pointer]
+        - button "Symptoms" [ref=f4e73] [cursor=pointer]
+        - button "Care team" [ref=f4e79] [cursor=pointer]
+        - button "Alerts 4" [ref=f4e86] [cursor=pointer]:
+          - generic [ref=f4e90]: Alerts
+          - generic [ref=f4e91]: "4"
+        - generic [ref=f4e92]:
+          - paragraph [ref=f4e93]: More
+          - button "Full report" [ref=f4e94] [cursor=pointer]
+        - button "Ask about records" [active] [ref=f4e99] [cursor=pointer]
+      - generic [ref=f4e104]:
+        - button "Help" [ref=f4e105] [cursor=pointer]
+        - button "Settings" [ref=f4e110] [cursor=pointer]
+        - generic [ref=f4e115]: Private local workspace
+    - main [ref=f4e117]:
+      - generic [ref=f4e405]:
+        - heading "Ask about records" [level=1] [ref=f4e406]
+        - paragraph [ref=f4e407]: Start with local source search. Optional AI explanation is separate and only uses the matching excerpts you choose to send.
+      - generic [ref=f4e408]:
+        - group "Question mode" [ref=f4e409]:
+          - button "Local source search" [ref=f4e410] [cursor=pointer]
+          - button "Optional AI explanation" [ref=f4e414] [cursor=pointer]
+        - generic [ref=f4e418]:
+          - generic [ref=f4e419]: What do you want to find?
+          - textbox "What do you want to find?" [ref=f4e420]:
+            - /placeholder: e.g. What records mention kidney function?
+        - button "Ask question" [disabled] [ref=f4e421]
+        - generic [ref=f4e424]: Local search returns excerpts and dates without sending data to an external service.

@@ -1,0 +1,183 @@
+- generic [ref=f1e3]:
+  - link "Skip to main content" [ref=f1e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1e5]:
+    - button "Motherly Medical Memory" [ref=f1e6] [cursor=pointer]
+    - generic [ref=f1e12]:
+      - generic [ref=f1e13]:
+        - generic [ref=f1e17]: Search records
+        - textbox "Search records" [ref=f1e18]:
+          - /placeholder: Search
+      - button "Share for visit" [ref=f1e19] [cursor=pointer]
+      - button "Notifications" [ref=f1e26] [cursor=pointer]:
+        - generic [ref=f1e30]: "3"
+      - button "Settings" [ref=f1e31] [cursor=pointer]
+  - generic [ref=f1e35]:
+    - complementary "Primary navigation" [ref=f1e36]:
+      - navigation [ref=f1e37]:
+        - button "Overview" [ref=f1e39] [cursor=pointer]
+        - button "Timeline" [ref=f1e45] [cursor=pointer]
+        - button "Conditions" [ref=f1e50] [cursor=pointer]
+        - button "Medications" [ref=f1e56] [cursor=pointer]
+        - button "Lab trends" [ref=f1e62] [cursor=pointer]
+        - button "Records" [ref=f1e67] [cursor=pointer]
+        - button "Appointments" [ref=f1e73] [cursor=pointer]
+        - button "Symptoms" [ref=f1e78] [cursor=pointer]
+        - button "Care team" [ref=f1e84] [cursor=pointer]
+        - button "Alerts 4" [ref=f1e91] [cursor=pointer]:
+          - generic [ref=f1e95]: Alerts
+          - generic [ref=f1e96]: "4"
+        - generic [ref=f1e97]:
+          - paragraph [ref=f1e98]: More
+          - button "Full report" [ref=f1e99] [cursor=pointer]
+        - button "Ask about records" [ref=f1e104] [cursor=pointer]
+      - generic [ref=f1e109]:
+        - button "Help" [ref=f1e110] [cursor=pointer]
+        - button "Settings" [ref=f1e115] [cursor=pointer]
+        - generic [ref=f1e120]: Private local workspace
+    - main [ref=f1e122]:
+      - generic [ref=f1e396]:
+        - generic [ref=f1e397]:
+          - heading "Lab trends" [level=1] [ref=f1e398]
+          - paragraph [ref=f1e399]: Explore measurements over time, then open the source record for the original context.
+        - button "Share for visit" [ref=f1e401] [cursor=pointer]
+      - generic [ref=f1e408]:
+        - generic [ref=f1e409]:
+          - text: Date range
+          - combobox "Date range" [ref=f1e410]:
+            - option "All available" [selected]
+            - option "Last 2 years"
+        - generic [ref=f1e411]:
+          - text: Test
+          - combobox "Test" [ref=f1e412]:
+            - option "eGFR" [selected]
+            - option "Creatinine"
+            - option "BUN"
+            - option "HbA1c"
+            - option "Total cholesterol"
+        - button "Clear filters" [ref=f1e413] [cursor=pointer]
+      - generic [ref=f1e414]:
+        - generic [ref=f1e415]:
+          - generic [ref=f1e416]:
+            - generic [ref=f1e417]:
+              - heading "eGFR over time" [level=2] [ref=f1e418]
+              - paragraph [ref=f1e422]: Showing 6 indexed results from connected records.
+            - generic [ref=f1e423]: derived
+          - img "eGFR trend chart" [ref=f1e426]:
+            - generic [ref=f1e427]: "77"
+            - generic [ref=f1e429]: "64"
+            - generic [ref=f1e431]: "50"
+            - generic [ref=f1e433]: "37"
+            - generic [ref=f1e436]: Mar 21
+            - generic [ref=f1e439]: Jan 23
+            - generic [ref=f1e442]: Nov 23
+            - generic [ref=f1e445]: Mar 24
+            - generic [ref=f1e448]: Oct 24
+            - generic [ref=f1e451]: Jan 25
+          - generic [ref=f1e454]: This is a record summary to help you and your care team see patterns. It is not medical advice.
+        - complementary [ref=f1e459]:
+          - heading "Related records" [level=2] [ref=f1e460]
+          - paragraph [ref=f1e461]: Notes, imaging, and medication changes connected to this topic.
+          - button "Nephrology consultation and follow-up plan Jan 13, 2025 · Clinical note" [ref=f1e462] [cursor=pointer]:
+            - generic [ref=f1e466]:
+              - strong [ref=f1e467]: Nephrology consultation and follow-up plan
+              - generic [ref=f1e468]: Jan 13, 2025 · Clinical note
+          - button "Kidney ultrasound Jan 29, 2025 · Imaging" [ref=f1e471] [cursor=pointer]:
+            - generic [ref=f1e475]:
+              - strong [ref=f1e476]: Kidney ultrasound
+              - generic [ref=f1e477]: Jan 29, 2025 · Imaging
+          - button "CBC result trends May 13, 2025 · Lab result" [ref=f1e480] [cursor=pointer]:
+            - generic [ref=f1e484]:
+              - strong [ref=f1e485]: CBC result trends
+              - generic [ref=f1e486]: May 13, 2025 · Lab result
+          - button "Comprehensive metabolic panel trends Jun 2, 2026 · Lab result" [ref=f1e489] [cursor=pointer]:
+            - generic [ref=f1e493]:
+              - strong [ref=f1e494]: Comprehensive metabolic panel trends
+              - generic [ref=f1e495]: Jun 2, 2026 · Lab result
+      - generic [ref=f1e498]:
+        - generic [ref=f1e500]:
+          - heading "Results" [level=2] [ref=f1e501]
+          - paragraph [ref=f1e502]: Expand a row to see source metadata.
+        - generic [ref=f1e505]:
+          - generic [ref=f1e506]: Date
+          - generic [ref=f1e507]: Test
+          - generic [ref=f1e508]: Result
+          - generic [ref=f1e509]: Source
+        - button "Jan 13, 2025 eGFR 53 mL/min/1.73m² Nephrology record Open source record" [expanded] [ref=f1e510] [cursor=pointer]:
+          - generic [ref=f1e513]: Jan 13, 2025
+          - generic [ref=f1e514]: eGFR
+          - strong [ref=f1e515]: 53 mL/min/1.73m²
+          - generic [ref=f1e516]: Nephrology record
+          - generic [ref=f1e517]: Open source record
+        - generic [ref=f1e520]:
+          - generic [ref=f1e521]:
+            - generic [ref=f1e522]:
+              - term [ref=f1e523]: Record type
+              - definition [ref=f1e524]: Lab result
+            - generic [ref=f1e525]:
+              - term [ref=f1e526]: Collected
+              - definition [ref=f1e527]: Jan 13, 2025
+            - generic [ref=f1e528]:
+              - term [ref=f1e529]: Evidence state
+              - definition [ref=f1e530]:
+                - generic [ref=f1e531]: documented
+            - generic [ref=f1e533]:
+              - term [ref=f1e534]: Source file
+              - definition [ref=f1e535]: ../vickie-berry-dashboard/assets/momnephbinder (1).pdf
+          - button "Open source record" [active] [ref=f1e536] [cursor=pointer]
+        - button "Oct 11, 2024 eGFR 42 mL/min/1.73m² Health summary Open source record" [ref=f1e537] [cursor=pointer]:
+          - generic [ref=f1e540]: Oct 11, 2024
+          - generic [ref=f1e541]: eGFR
+          - strong [ref=f1e542]: 42 mL/min/1.73m²
+          - generic [ref=f1e543]: Health summary
+          - generic [ref=f1e544]: Open source record
+        - button "Mar 6, 2024 eGFR 46 mL/min/1.73m² Health summary Open source record" [ref=f1e547] [cursor=pointer]:
+          - generic [ref=f1e550]: Mar 6, 2024
+          - generic [ref=f1e551]: eGFR
+          - strong [ref=f1e552]: 46 mL/min/1.73m²
+          - generic [ref=f1e553]: Health summary
+          - generic [ref=f1e554]: Open source record
+        - button "Nov 6, 2023 eGFR 49 mL/min/1.73m² Health summary XML Open source record" [ref=f1e557] [cursor=pointer]:
+          - generic [ref=f1e560]: Nov 6, 2023
+          - generic [ref=f1e561]: eGFR
+          - strong [ref=f1e562]: 49 mL/min/1.73m²
+          - generic [ref=f1e563]: Health summary XML
+          - generic [ref=f1e564]: Open source record
+        - button "Jan 9, 2023 eGFR 54 mL/min/1.73m² Health summary XML Open source record" [ref=f1e567] [cursor=pointer]:
+          - generic [ref=f1e570]: Jan 9, 2023
+          - generic [ref=f1e571]: eGFR
+          - strong [ref=f1e572]: 54 mL/min/1.73m²
+          - generic [ref=f1e573]: Health summary XML
+          - generic [ref=f1e574]: Open source record
+        - button "Mar 24, 2021 eGFR ≈70–75 mL/min/1.73m² Care plan summary Open source record" [ref=f1e577] [cursor=pointer]:
+          - generic [ref=f1e580]: Mar 24, 2021
+          - generic [ref=f1e581]: eGFR
+          - strong [ref=f1e582]: ≈70–75 mL/min/1.73m²
+          - generic [ref=f1e583]: Care plan summary
+          - generic [ref=f1e584]: Open source record
+  - dialog [ref=f1e587]:
+    - generic [ref=f1e588]:
+      - generic [ref=f1e589]:
+        - paragraph [ref=f1e590]: Source record
+        - heading "Nephrology consultation and follow-up plan" [level=2] [ref=f1e591]
+      - button "Close source record" [ref=f1e592] [cursor=pointer]
+    - generic [ref=f1e596]:
+      - generic [ref=f1e597]: documented
+      - generic [ref=f1e599]: PDF
+      - generic [ref=f1e600]: Clinical note
+      - generic [ref=f1e601]: Jan 13, 2025
+    - paragraph [ref=f1e602]: Evaluation for chronic kidney disease with planned laboratory work, kidney ultrasound, home blood-pressure monitoring, and follow-up.
+    - generic [ref=f1e603]:
+      - generic [ref=f1e604]:
+        - term [ref=f1e605]: Facility
+        - definition [ref=f1e606]: Indiana Kidney Specialists
+      - generic [ref=f1e607]:
+        - term [ref=f1e608]: Original path
+        - definition [ref=f1e609]: ../vickie-berry-dashboard/assets/momnephbinder (1).pdf
+      - generic [ref=f1e610]:
+        - term [ref=f1e611]: Tags
+        - definition [ref=f1e612]: nephrology, kidney, blood pressure
+    - generic [ref=f1e613]:
+      - button "Copy source path" [ref=f1e614] [cursor=pointer]
+      - button "Done" [ref=f1e618] [cursor=pointer]
+    - paragraph [ref=f1e619]: Original source files remain in the local source bundle and are not published by this app.

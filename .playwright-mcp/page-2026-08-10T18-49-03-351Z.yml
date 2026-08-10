@@ -1,0 +1,332 @@
+- generic [ref=f1e3]:
+  - link "Skip to main content" [ref=f1e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1e5]:
+    - button "Motherly Medical Memory" [ref=f1e6] [cursor=pointer]
+    - generic [ref=f1e12]:
+      - generic [ref=f1e13]:
+        - generic [ref=f1e17]: Search records
+        - textbox "Search records" [ref=f1e18]:
+          - /placeholder: Search
+      - button "Share for visit" [ref=f1e19] [cursor=pointer]
+      - button "Notifications" [ref=f1e26] [cursor=pointer]:
+        - generic [ref=f1e30]: "3"
+      - button "Settings" [ref=f1e31] [cursor=pointer]
+  - generic [ref=f1e35]:
+    - complementary "Primary navigation" [ref=f1e36]:
+      - navigation [ref=f1e37]:
+        - button "Overview" [ref=f1e39] [cursor=pointer]
+        - button "Timeline" [ref=f1e45] [cursor=pointer]
+        - button "Conditions" [ref=f1e50] [cursor=pointer]
+        - button "Medications" [ref=f1e56] [cursor=pointer]
+        - button "Lab trends" [ref=f1e62] [cursor=pointer]
+        - button "Records" [active] [ref=f1e67] [cursor=pointer]
+        - button "Appointments" [ref=f1e73] [cursor=pointer]
+        - button "Symptoms" [ref=f1e78] [cursor=pointer]
+        - button "Care team" [ref=f1e84] [cursor=pointer]
+        - button "Alerts 4" [ref=f1e91] [cursor=pointer]:
+          - generic [ref=f1e95]: Alerts
+          - generic [ref=f1e96]: "4"
+        - generic [ref=f1e97]:
+          - paragraph [ref=f1e98]: More
+          - button "Full report" [ref=f1e99] [cursor=pointer]
+        - button "Ask about records" [ref=f1e104] [cursor=pointer]
+      - generic [ref=f1e109]:
+        - button "Help" [ref=f1e110] [cursor=pointer]
+        - button "Settings" [ref=f1e115] [cursor=pointer]
+        - generic [ref=f1e120]: Private local workspace
+    - main [ref=f1e122]:
+      - generic [ref=f1e858]:
+        - generic [ref=f1e859]:
+          - heading "Records" [level=1] [ref=f1e860]
+          - paragraph [ref=f1e861]: The normalized index keeps each original file discoverable without flattening it into an opaque summary.
+        - button "Print record index" [ref=f1e863] [cursor=pointer]
+      - generic [ref=f1e870]:
+        - generic [ref=f1e871]:
+          - generic [ref=f1e875]: Search records
+          - textbox "Search records" [ref=f1e876]:
+            - /placeholder: Search by title, facility, category, or keyword…
+        - generic [ref=f1e877]:
+          - generic [ref=f1e878]: 18 matching records
+          - generic [ref=f1e879]:
+            - generic [ref=f1e880]: Filter record category
+            - combobox "Filter record category" [ref=f1e881]:
+              - option "All" [selected]
+              - option "Health summary"
+              - option "Clinical note"
+              - option "Imaging"
+              - option "Lab result"
+              - option "Procedure"
+              - option "Document"
+              - option "Medication"
+              - option "Family history"
+              - option "Social history"
+      - generic [ref=f1e882]:
+        - article [ref=f1e883]:
+          - generic [ref=f1e888]:
+            - generic [ref=f1e889]:
+              - heading "Comprehensive Care Plan" [level=2] [ref=f1e890]
+              - generic [ref=f1e891]: TXT
+            - paragraph [ref=f1e892]: Current care plan, kidney function trend, medication recommendations, dietary guidance, historical medical information, and preventive care.
+            - generic [ref=f1e893]:
+              - generic [ref=f1e894]: Health summary
+              - generic [ref=f1e895]: ·Motherly Medical Memory
+              - time [ref=f1e896]: Jan 13, 2025
+            - generic [ref=f1e897]:
+              - generic [ref=f1e898]: care plan
+              - generic [ref=f1e899]: summary
+              - generic [ref=f1e900]: CKD
+              - generic [ref=f1e901]: gout
+          - button "Open source" [ref=f1e902] [cursor=pointer]
+        - article [ref=f1e905]:
+          - generic [ref=f1e910]:
+            - generic [ref=f1e911]:
+              - heading "Nephrology consultation and follow-up plan" [level=2] [ref=f1e912]
+              - generic [ref=f1e913]: PDF
+            - paragraph [ref=f1e914]: Evaluation for chronic kidney disease with planned laboratory work, kidney ultrasound, home blood-pressure monitoring, and follow-up.
+            - generic [ref=f1e915]:
+              - generic [ref=f1e916]: Clinical note
+              - generic [ref=f1e917]: ·Indiana Kidney Specialists
+              - time [ref=f1e918]: Jan 13, 2025
+            - generic [ref=f1e919]:
+              - generic [ref=f1e920]: nephrology
+              - generic [ref=f1e921]: kidney
+              - generic [ref=f1e922]: blood pressure
+          - button "Open source" [ref=f1e923] [cursor=pointer]
+        - article [ref=f1e926]:
+          - generic [ref=f1e931]:
+            - generic [ref=f1e932]:
+              - heading "Kidney ultrasound" [level=2] [ref=f1e933]
+              - generic [ref=f1e934]: PDF
+            - paragraph [ref=f1e935]: Imaging record associated with the kidney-care follow-up sequence. Confirm the exact source document before clinical use.
+            - generic [ref=f1e936]:
+              - generic [ref=f1e937]: Imaging
+              - generic [ref=f1e938]: ·Indiana Kidney Specialists
+              - time [ref=f1e939]: Jan 29, 2025
+            - generic [ref=f1e940]:
+              - generic [ref=f1e941]: kidney
+              - generic [ref=f1e942]: imaging
+          - button "Open source" [ref=f1e943] [cursor=pointer]
+        - article [ref=f1e946]:
+          - generic [ref=f1e951]:
+            - generic [ref=f1e952]:
+              - heading "Emergency department knee pain record" [level=2] [ref=f1e953]
+              - generic [ref=f1e954]: PDF
+            - paragraph [ref=f1e955]: Right knee pain and degenerative changes documented during an emergency visit.
+            - generic [ref=f1e956]:
+              - generic [ref=f1e957]: Clinical note
+              - generic [ref=f1e958]: ·Logansport Memorial Hospital
+              - time [ref=f1e959]: May 9, 2025
+            - generic [ref=f1e960]:
+              - generic [ref=f1e961]: knee
+              - generic [ref=f1e962]: arthritis
+              - generic [ref=f1e963]: emergency
+          - button "Open source" [ref=f1e964] [cursor=pointer]
+        - article [ref=f1e967]:
+          - generic [ref=f1e972]:
+            - generic [ref=f1e973]:
+              - heading "Personal health summary · May 2025" [level=2] [ref=f1e974]
+              - generic [ref=f1e975]: PDF
+            - paragraph [ref=f1e976]: Machine-readable and printable health summary from the connected-record export.
+            - generic [ref=f1e977]:
+              - generic [ref=f1e978]: Health summary
+              - generic [ref=f1e979]: ·Community Health Network
+              - time [ref=f1e980]: May 9, 2025
+            - generic [ref=f1e981]:
+              - generic [ref=f1e982]: health summary
+              - generic [ref=f1e983]: export
+          - button "Open source" [ref=f1e984] [cursor=pointer]
+        - article [ref=f1e987]:
+          - generic [ref=f1e992]:
+            - generic [ref=f1e993]:
+              - heading "Personal health summary · October 2024" [level=2] [ref=f1e994]
+              - generic [ref=f1e995]: XML
+            - paragraph [ref=f1e996]: Encounter summary with chronic kidney disease and depression diagnoses recorded.
+            - generic [ref=f1e997]:
+              - generic [ref=f1e998]: Health summary
+              - generic [ref=f1e999]: ·Logansport Family
+              - time [ref=f1e1000]: Oct 11, 2024
+            - generic [ref=f1e1001]:
+              - generic [ref=f1e1002]: CKD
+              - generic [ref=f1e1003]: depression
+              - generic [ref=f1e1004]: health summary
+          - button "Open source" [ref=f1e1005] [cursor=pointer]
+        - article [ref=f1e1008]:
+          - generic [ref=f1e1013]:
+            - generic [ref=f1e1014]:
+              - heading "CBC result trends" [level=2] [ref=f1e1015]
+              - generic [ref=f1e1016]: PDF
+            - paragraph [ref=f1e1017]: Result trend report for complete blood count values.
+            - generic [ref=f1e1018]:
+              - generic [ref=f1e1019]: Lab result
+              - generic [ref=f1e1020]: ·Community Health Network
+              - time [ref=f1e1021]: May 13, 2025
+            - generic [ref=f1e1022]:
+              - generic [ref=f1e1023]: CBC
+              - generic [ref=f1e1024]: lab
+              - generic [ref=f1e1025]: trend
+          - button "Open source" [ref=f1e1026] [cursor=pointer]
+        - article [ref=f1e1029]:
+          - generic [ref=f1e1034]:
+            - generic [ref=f1e1035]:
+              - heading "Comprehensive metabolic panel trends" [level=2] [ref=f1e1036]
+              - generic [ref=f1e1037]: PDF
+            - paragraph [ref=f1e1038]: Recent comprehensive metabolic panel trend report available in the local export.
+            - generic [ref=f1e1039]:
+              - generic [ref=f1e1040]: Lab result
+              - generic [ref=f1e1041]: ·Community Health Network
+              - time [ref=f1e1042]: Jun 2, 2026
+            - generic [ref=f1e1043]:
+              - generic [ref=f1e1044]: CMP
+              - generic [ref=f1e1045]: kidney
+              - generic [ref=f1e1046]: lab
+              - generic [ref=f1e1047]: trend
+          - button "Open source" [ref=f1e1048] [cursor=pointer]
+        - article [ref=f1e1051]:
+          - generic [ref=f1e1056]:
+            - generic [ref=f1e1057]:
+              - heading "Brain MRI · 2016" [level=2] [ref=f1e1058]
+              - generic [ref=f1e1059]: PDF
+            - paragraph [ref=f1e1060]: Historical brain imaging associated with the 2016 stroke/TIA admission.
+            - generic [ref=f1e1061]:
+              - generic [ref=f1e1062]: Imaging
+              - generic [ref=f1e1063]: ·Parkview Health
+              - time [ref=f1e1064]: Mar 17, 2016
+            - generic [ref=f1e1065]:
+              - generic [ref=f1e1066]: MRI
+              - generic [ref=f1e1067]: stroke
+              - generic [ref=f1e1068]: brain
+          - button "Open source" [ref=f1e1069] [cursor=pointer]
+        - article [ref=f1e1072]:
+          - generic [ref=f1e1077]:
+            - generic [ref=f1e1078]:
+              - heading "Aneurysm and vascular records" [level=2] [ref=f1e1079]
+              - generic [ref=f1e1080]: PDF
+            - paragraph [ref=f1e1081]: CTA follow-up record related to the historical cerebral aneurysm concern.
+            - generic [ref=f1e1082]:
+              - generic [ref=f1e1083]: Imaging
+              - generic [ref=f1e1084]: ·Logan Internists
+              - time [ref=f1e1085]: Jul 22, 2022
+            - generic [ref=f1e1086]:
+              - generic [ref=f1e1087]: aneurysm
+              - generic [ref=f1e1088]: CTA
+              - generic [ref=f1e1089]: vascular
+          - button "Open source" [ref=f1e1090] [cursor=pointer]
+        - article [ref=f1e1093]:
+          - generic [ref=f1e1098]:
+            - generic [ref=f1e1099]:
+              - heading "Bone density screening" [level=2] [ref=f1e1100]
+              - generic [ref=f1e1101]: PDF
+            - paragraph [ref=f1e1102]: Historical bone-density screening is referenced in the care plan as osteopenia with follow-up recommended.
+            - generic [ref=f1e1103]:
+              - generic [ref=f1e1104]: Imaging
+              - generic [ref=f1e1105]: ·Community Health Network
+              - time [ref=f1e1106]: Jul 20, 2022
+            - generic [ref=f1e1107]:
+              - generic [ref=f1e1108]: DEXA
+              - generic [ref=f1e1109]: osteopenia
+              - generic [ref=f1e1110]: preventive
+          - button "Open source" [ref=f1e1111] [cursor=pointer]
+        - article [ref=f1e1114]:
+          - generic [ref=f1e1119]:
+            - generic [ref=f1e1120]:
+              - heading "Right ankle and foot ORIF records" [level=2] [ref=f1e1121]
+              - generic [ref=f1e1122]: PDF
+            - paragraph [ref=f1e1123]: Operative report for right ankle/foot fracture repair, with subsequent orthopedic follow-up.
+            - generic [ref=f1e1124]:
+              - generic [ref=f1e1125]: Procedure
+              - generic [ref=f1e1126]: ·Logansport Memorial Hospital
+              - time [ref=f1e1127]: Apr 19, 2022
+            - generic [ref=f1e1128]:
+              - generic [ref=f1e1129]: ORIF
+              - generic [ref=f1e1130]: ankle
+              - generic [ref=f1e1131]: fracture
+          - button "Open source" [ref=f1e1132] [cursor=pointer]
+        - article [ref=f1e1135]:
+          - generic [ref=f1e1140]:
+            - generic [ref=f1e1141]:
+              - heading "Polysomnography report" [level=2] [ref=f1e1142]
+              - generic [ref=f1e1143]: PDF
+            - paragraph [ref=f1e1144]: Historical sleep study referenced by the care plan; current relevance requires clinician review.
+            - generic [ref=f1e1145]:
+              - generic [ref=f1e1146]: Clinical note
+              - generic [ref=f1e1147]: ·Howard Regional Health System
+              - time [ref=f1e1148]: Nov 8, 2011
+            - generic [ref=f1e1149]:
+              - generic [ref=f1e1150]: sleep
+              - generic [ref=f1e1151]: PLM
+              - generic [ref=f1e1152]: insomnia
+          - button "Open source" [ref=f1e1153] [cursor=pointer]
+        - article [ref=f1e1156]:
+          - generic [ref=f1e1161]:
+            - generic [ref=f1e1162]:
+              - heading "Parkview results collection" [level=2] [ref=f1e1163]
+              - generic [ref=f1e1164]: HTML
+            - paragraph [ref=f1e1165]: Portal-exported results collection containing patient measurements, routine chemistry, hematology, and vitamins.
+            - generic [ref=f1e1166]:
+              - generic [ref=f1e1167]: Lab result
+              - generic [ref=f1e1168]: ·Parkview Logansport Hospital
+              - time [ref=f1e1169]: Jul 23, 2025
+            - generic [ref=f1e1170]:
+              - generic [ref=f1e1171]: Parkview
+              - generic [ref=f1e1172]: results
+              - generic [ref=f1e1173]: portal
+          - button "Open source" [ref=f1e1174] [cursor=pointer]
+        - article [ref=f1e1177]:
+          - generic [ref=f1e1182]:
+            - generic [ref=f1e1183]:
+              - heading "Parkview document library" [level=2] [ref=f1e1184]
+              - generic [ref=f1e1185]: HTML
+            - paragraph [ref=f1e1186]: Portal-exported document library with links to visit summaries and clinical documents.
+            - generic [ref=f1e1187]:
+              - generic [ref=f1e1188]: Document
+              - generic [ref=f1e1189]: ·Parkview Logansport Hospital
+              - time [ref=f1e1190]: Jul 23, 2025
+            - generic [ref=f1e1191]:
+              - generic [ref=f1e1192]: Parkview
+              - generic [ref=f1e1193]: documents
+              - generic [ref=f1e1194]: portal
+          - button "Open source" [ref=f1e1195] [cursor=pointer]
+        - article [ref=f1e1198]:
+          - generic [ref=f1e1203]:
+            - generic [ref=f1e1204]:
+              - heading "Parkview medication list" [level=2] [ref=f1e1205]
+              - generic [ref=f1e1206]: HTML
+            - paragraph [ref=f1e1207]: Portal-exported medication list retained for reconciliation against the care-plan medication list.
+            - generic [ref=f1e1208]:
+              - generic [ref=f1e1209]: Medication
+              - generic [ref=f1e1210]: ·Parkview Logansport Hospital
+              - time [ref=f1e1211]: Jul 23, 2025
+            - generic [ref=f1e1212]:
+              - generic [ref=f1e1213]: Parkview
+              - generic [ref=f1e1214]: medications
+              - generic [ref=f1e1215]: reconciliation
+          - button "Open source" [ref=f1e1216] [cursor=pointer]
+        - article [ref=f1e1219]:
+          - generic [ref=f1e1224]:
+            - generic [ref=f1e1225]:
+              - heading "Parkview family history" [level=2] [ref=f1e1226]
+              - generic [ref=f1e1227]: HTML
+            - paragraph [ref=f1e1228]: Portal-exported family-history view.
+            - generic [ref=f1e1229]:
+              - generic [ref=f1e1230]: Family history
+              - generic [ref=f1e1231]: ·Parkview Logansport Hospital
+              - time [ref=f1e1232]: Jul 23, 2025
+            - generic [ref=f1e1233]:
+              - generic [ref=f1e1234]: Parkview
+              - generic [ref=f1e1235]: family history
+          - button "Open source" [ref=f1e1236] [cursor=pointer]
+        - article [ref=f1e1239]:
+          - generic [ref=f1e1244]:
+            - generic [ref=f1e1245]:
+              - heading "Parkview social history" [level=2] [ref=f1e1246]
+              - generic [ref=f1e1247]: HTML
+            - paragraph [ref=f1e1248]: Portal-exported social history including exercise, employment, nutrition, alcohol, tobacco, and home/environment sections.
+            - generic [ref=f1e1249]:
+              - generic [ref=f1e1250]: Social history
+              - generic [ref=f1e1251]: ·Parkview Logansport Hospital
+              - time [ref=f1e1252]: Jul 23, 2025
+            - generic [ref=f1e1253]:
+              - generic [ref=f1e1254]: Parkview
+              - generic [ref=f1e1255]: social history
+          - button "Open source" [ref=f1e1256] [cursor=pointer]
